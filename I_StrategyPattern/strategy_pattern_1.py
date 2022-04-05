@@ -49,5 +49,5 @@ if __name__ == '__main__':
     reader.classify_list(RandomClassifier)
     reader.classify_list(ReversedClassifier)
     reader.classify_list(SortingClassifier)
-    reader.classify_list(BlackHoleClassifier)
+    #reader.classify_list(BlackHoleClassifier)
     
