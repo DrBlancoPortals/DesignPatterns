@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 import random
 
+#OOP approach (pure) to the Strategy Pattern
 
 class I_NumClassifier(ABC):
     @abstractmethod
