@@ -25,11 +25,11 @@ class SortingClassifier(I_NumClassifier):
         lista2.sort()
         return lista2
 
-'''
+
 class BlackHoleClassifier(I_NumClassifier):
     def classify(self,lista:list) -> list:
         return []
-'''
+
 
 
 class List_reader:
@@ -49,5 +49,5 @@ if __name__ == '__main__':
     reader.classify_list(RandomClassifier)
     reader.classify_list(ReversedClassifier)
     reader.classify_list(SortingClassifier)
-    #reader.classify_list(BlackHoleClassifier)
+    reader.classify_list(BlackHoleClassifier)
     
