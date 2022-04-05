@@ -25,9 +25,11 @@ class SortingClassifier(I_NumClassifier):
         lista2.sort()
         return lista2
 
+'''
 class BlackHoleClassifier(I_NumClassifier):
     def classify(self,lista:list) -> list:
         return []
+'''
 
 
 class List_reader:
